@@ -32,6 +32,8 @@ if(Passcode.equals(Password)) {
 	JOptionPane.showMessageDialog(null,"Great Job!!!!! "+Computer);
 }
 	// 5. If the password does not match, pop-up "INTRUDER!!"
-
+else {
+	JOptionPane.showMessageDialog(null,"Intruder NONONE likes YOU");
+}
 	}
 }
