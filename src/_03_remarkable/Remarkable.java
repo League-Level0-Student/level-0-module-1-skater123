@@ -12,7 +12,7 @@ public class Remarkable {
 		String Remarkable = "Awesome";
 
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-		String Adora = "Awesome Jacket";
+		String ButtHead = "Awesome Jacket";
 		String Daniel = "Funny";
 		String David = "Hilerious";
 		String Matt = "Tall";
@@ -30,7 +30,7 @@ public class Remarkable {
 			JOptionPane.showMessageDialog(null, David);
 
 		}
-		if(name.equals("Adora")) {  
+		if(name.equals("ButtHead")) {  
 			JOptionPane.showMessageDialog(null,Adora);
 		}
 		}
