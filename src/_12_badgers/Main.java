@@ -39,11 +39,17 @@ public class Main {
 		//---
 		for(int j = 0; j < 2; j++)
 		{
+			
 			for(int i = 0; i < 15; i++)
 			{
-				System.out.print("BADGER, ");
+				System.out.print("BADGER,");
 				
-				//i = i + 1;
+				//Modulus! A lesson for another day.
+				if( i % 4 == 0)
+				{
+					System.out.println();
+				}
+				
 			}
 			
 			System.out.println();
@@ -53,10 +59,10 @@ public class Main {
 				System.out.print("MUSHROOM, ");
 			}
 			
+			
 			System.out.println();
 		}
 	}
-
 }
 
 
