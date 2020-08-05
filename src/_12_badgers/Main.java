@@ -28,7 +28,9 @@ public class Main {
 				+ "Badger, Badger, Badger\n" + 
 				" Mushroom, Mushroom\n" + 
 				" \n" + 
-				" Badger, Badger, Badger, Badger, Badger, Badger, Badger,Badger, Badger, Badger, Badger, Badger\n" + 
+				" Badger, Badger, Badger, Badger, 
+				Badger, Badger, Badger,Badger, 
+				Badger, Badger, Badger, Badger\n" + 
 				" Mushroom, Mushroom\n" + 
 				" \n" + 
 				" A Snake!!!");
@@ -41,8 +43,7 @@ public class Main {
 		{
 			
 			for(int i = 0; i < 15; i++)
-			{
-				System.out.print("BADGER,");
+			{	
 				
 				//Modulus! A lesson for another day.
 				if( i % 4 == 0)
@@ -50,6 +51,7 @@ public class Main {
 					System.out.println();
 				}
 				
+				System.out.print("BADGER,");
 			}
 			
 			System.out.println();
@@ -58,10 +60,13 @@ public class Main {
 			{
 				System.out.print("MUSHROOM, ");
 			}
+		}		
 			
-			
-			System.out.println();
-		}
+		//for(int i =0  0;  i <  +1;  i++)
+		System.out.println();
+		System.out.println();
+		System.out.println("A SNAKE!!!");
+	
 	}
 }
 
